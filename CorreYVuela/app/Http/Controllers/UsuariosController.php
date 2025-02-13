@@ -60,6 +60,11 @@ class UsuariosController extends Controller
     }
 
 
+    public function superacion(Request $request){
+        return view('superacion');
+    }
+
+
     public function mostrarFormularioRegistro()
     {
         return view('registrarse');

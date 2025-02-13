@@ -10,3 +10,4 @@ Route::post('/inicio/iniciarSesion', [UsuariosController::class, 'iniciarSesion'
 Route::get('/usuarios', [UsuariosController::class, 'index'])->name('usuarios.index');
 Route::get('/registrarse', [UsuariosController::class, 'mostrarFormularioRegistro'])->name('usuarios.registrarse');
 Route::post('/registrarse', [UsuariosController::class, 'registrarUsuario'])->name('usuarios.registrar');
+Route::get('/superacion', [UsuariosController::class, 'superacion'])->name('usuarios.superacion');
