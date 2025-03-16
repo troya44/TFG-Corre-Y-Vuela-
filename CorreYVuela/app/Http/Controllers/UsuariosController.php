@@ -75,6 +75,28 @@ class UsuariosController extends Controller
     }
 
 
+    public function carreras(Request $request){
+        return view('carreras');
+    }
+
+
+
+    public function desafioNazari(Request $request){
+        return view('desafioNazari');
+    }
+
+
+    public function desafioPueblosBlancos(Request $request){
+        return view('desafioPueblosBlancos');
+    }
+
+    public function cordobaBikeRace(Request $request){
+        return view('cordobaBikeRace');
+    }
+
+
+
+
     /**
      * Show the form for creating a new resource.
      */

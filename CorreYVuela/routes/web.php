@@ -11,3 +11,8 @@ Route::get('/usuarios', [UsuariosController::class, 'index'])->name('usuarios.in
 Route::get('/registrarse', [UsuariosController::class, 'mostrarFormularioRegistro'])->name('usuarios.registrarse');
 Route::post('/registrarse', [UsuariosController::class, 'registrarUsuario'])->name('usuarios.registrar');
 Route::get('/superacion', [UsuariosController::class, 'superacion'])->name('usuarios.superacion');
+Route::get('/carreras', [UsuariosController::class, 'carreras'])->name('usuarios.carreras');
+Route::get('/carreras/desafioNazari', [UsuariosController::class, 'desafioNazari'])->name('usuarios.desafioNazari');
+Route::get('/carreras/desafioPueblosBlancos', [UsuariosController::class, 'desafioPueblosBlancos'])->name('usuarios.desafioPueblosBlancos');
+Route::get('/carreras/cordobaBikeRace', [UsuariosController::class, 'cordobaBikeRace'])->name('usuarios.cordobaBikeRace');
+

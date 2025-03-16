@@ -99,6 +99,13 @@
     <a href="{{ route('usuarios.superacion') }}">Leer más</a>
 </div>
 
+<div>
+<h1>Carreras</h1>
+    <p>A continuación podrás ver el listado de carreras a las qur podrás apuntarte y disfrutar de nuestros eventos</p>
+    <p>Nuestros eventos se realizan a nivel nacional, aunque actualmente nos encontramos solamente a nivel Andaluz</p>
+    <a href="{{ route('usuarios.carreras') }}">Consultar Carreras</a>
+</div>
+
 <a href="{{ route('usuarios.portada') }}">Cerrar Sesión</a>
 </body>
 </html>
